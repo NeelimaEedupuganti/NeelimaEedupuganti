@@ -37,3 +37,30 @@ git push
 To check status use
 
 show status
+
+
+steps for creating new branch and clone 
+
+First check the status
+git status
+
+To clone the project from repo
+git clone <https://github.com/learndataengineering/learndataengineering.guide.git> 
+URL of repo 
+
+create new branch
+git checkout new_branch
+
+To add some new changes to existing file open some IDE 
+code .
+
+To add the changes to existing file
+git add .
+ 
+this is to commit the file
+git commit -m "add hadoop ecosystem components in index.md file"
+git commit -m <" heading <filename> file">
+
+to push the file 
+git push --set-upstream origin newbranch
+ 
